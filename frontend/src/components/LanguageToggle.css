@@ -1,0 +1,25 @@
+.language-toggle {
+  background: none;
+  border: 2px solid var(--border-color);
+  border-radius: 6px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  color: var(--text-primary);
+}
+
+.language-toggle:hover {
+  background-color: var(--bg-tertiary);
+  border-color: var(--primary-color);
+}
+
+.language-toggle:active {
+  transform: scale(0.95);
+}
+

@@ -1,0 +1,19 @@
+.citizen-row-skeleton {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 2.5fr 1.5fr;
+  gap: 16px;
+  padding: 20px;
+  border-bottom: 1px solid #e9ecef;
+  align-items: center;
+}
+
+.sleep-params-skeleton {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.skeleton-email {
+  margin-top: 8px;
+}
+

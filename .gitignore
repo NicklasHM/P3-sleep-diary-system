@@ -1,0 +1,101 @@
+# ============================================
+# Environment Variables
+# ============================================
+.env
+.env.local
+.env.production
+.env.development
+.env*.local
+
+# ============================================
+# Backend (Java/Maven)
+# ============================================
+# Maven
+backend/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Build
+backend/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ============================================
+# Frontend (Node.js/Vite)
+# ============================================
+# Dependencies
+frontend/node_modules/
+frontend/package-lock.json
+
+# Build output
+frontend/dist/
+frontend/dist-ssr/
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================
+# IDE & Editors
+# ============================================
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# Eclipse/STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.temp
+*.cache
+*.local
+
+
+
+
